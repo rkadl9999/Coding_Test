@@ -15,7 +15,6 @@ public class Oven_Clock {
             if(hour >= 24)
                 hour -= 24;
             min = (min + time) % 60;
-            System.out.println(min);
             if(min >= 60)
                 min -= 60;
         }
